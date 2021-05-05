@@ -32,8 +32,8 @@ public class Solution {
             
             currentNode.next = new ListNode(overflow);
             currentNode = currentNode.next;
-            l1 = l1 == null? null : l1.next;
-            l2 = l2 == null? null : l2.next;
+            l1 = l1 == null ? null : l1.next;
+            l2 = l2 == null ? null : l2.next;
         }
         return root;
     }
